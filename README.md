@@ -1,18 +1,24 @@
-# threejs-cube-factory
-ThreeJS demo using a factory pattern
+# threejs-cube-es6
+ThreeJS demo using a factory pattern using ES6
 --
 
 * * *
 
 # Usage
 
-Clone the project and install browserify
-
-```
-npm install -g browserify
-```
+Clone the project
 
 ## Mac Instructions
+
+Open two terminal windows and change to the project folder:
+
+In the first window, run:
+
+```
+npm run web-server
+```
+
+In the second window, run:
 
 ```
 npm start
@@ -20,11 +26,8 @@ npm start
 
 ## Windows Instructions 
 
-```
-npm run build
-```
-
-Open index.html in a browser
+* Run the folder through a Web server
+* Browse to the root /index.html file
 
 * * *
 

@@ -1,8 +1,12 @@
-"use strict";
+/*
+  In a browser must use script type="module" parameter:
 
-var sceneFactory = require('./cube-scene');
+  <script type="module" src="./src/app.js"></script>
+ */
 
-var cubeScene = sceneFactory.create({
+import {CubeSceneFactory} from './cube-scene.js';
+
+var cubeScene = CubeSceneFactory.create({
   clear: "#111111"
 });
 
