@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "ThreeJS demo using a factory pattern in es6",
   "scripts": {
-    "web-server": "python -m SimpleHTTPServer $PORT || 8000",
+    "web-server": "cd src; python -m SimpleHTTPServer $PORT || 8000",
     "start": "open http://localhost:8000"
   },
   "author": "Mitch Allen",
